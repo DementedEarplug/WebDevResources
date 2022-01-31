@@ -2,7 +2,7 @@
 
 ## Three Keys to Performance
 These 3 big ticket items will be responsible for the largest performance impact on a website. So improvements in these 3 areas will largely increase the performance of your website.
-- Client Optimization
+- [Client Optimization](https://github.com/DementedEarplug/WebDevResources/blob/main/Performance/Client_Performance.md)
   - Critical Render Path
   - Optimized Code
   - Progressive Web App
