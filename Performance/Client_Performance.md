@@ -25,7 +25,16 @@ JS is Parser blocking.
 
 
 
-## Optimizing Code (TBD after react)
+## Optimizing Code 
+In order to deliver a performant webapp, you need to ensure your JS code is optimized in order to  achieve a fast *time to first meaningful paint* and *time to intetactive*. You also need to improve the execution of the JS once its on the page.
+### Delivering JS files on the most efficeient way possible
+Use codesplitting (progressive bootstraping) reduce the ammount of work being done during execution time by breaking down your JS and sending only what is needed for a page to run. Basically, send the necessary JS to load the home page, and lazy load the rest of the JS as you visit the pages that use it. You can also lazy load components that are not in the view and load the JS when an event triggers the component.
+
+### Sumary
+- Only load whats needed (codesplitting, treeshaking)
+- Avoid blocking main thread
+- Avoid memory leaks
+- Avoid multiple re-rendering
 
 
 ## PWAs (TBD after react)
